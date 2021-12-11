@@ -1,0 +1,26 @@
+{
+  "name": "twitter-trends-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "ts-node": "^10.2.1",
+    "twitter": "^1.7.1",
+    "twitter-v2": "^1.1.0",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/moment": "^2.13.0",
+    "@types/twitter": "^1.7.1",
+    "tsconfig-paths": "^3.11.0"
+  }
+}
